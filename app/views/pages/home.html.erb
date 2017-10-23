@@ -1,1 +1,17 @@
+<div class="background_image">
 
+
+  <%= form_for :shorten, url: pages_home_path do |f| %>
+  <h1> Shortly</h1>
+  <p> Not longering since 2017</p>
+    <div class="field">
+      <%= f.text_field :long_url %>
+      <%= f.submit %>
+    </div>
+  <% end %>
+
+
+
+
+
+</div>
